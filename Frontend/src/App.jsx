@@ -77,7 +77,6 @@ function App() {
           </div>
         </div>
 
-        {/* AI Response Section */}
         <div className='message-box ai-box'>
           <div className='profile-circle ai-circle'>
             <FaRobot className='profile-icon' />
