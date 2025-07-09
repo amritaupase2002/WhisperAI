@@ -16,7 +16,7 @@ function App() {
     
     setIsLoading(true);
     try {
-      const res = await axios.post('https://whisper-ai-two.vercel.app/getResponse', {
+      const res = await axios.post('https://whisper-ai-ashen.vercel.app/getResponse', {
         question: question
       });
       setResponse(res.data.response);
